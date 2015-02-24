@@ -28,3 +28,30 @@ Below are the effects of errors and/or warnings on the output file:
 1.	A program that contains at least one error (as indicated in the log file) will have the content of the output files flushed out at the end of execution as any output produced would be inaccurate or incomplete.
 
 2.	A program that contain only warning or no warning(s) or error(s) at all will generate the outputs file as expected.
+
+***********************************************************************************************
+EMULATOR
+
+1.	My Emulator (emu.c) works fine according to specification, it loads object file, produces memroy dump and executes properly. it includes the following options 
+	
+	a.	It does a trace of the execution displaying the program counter, stack pointer, registers A and B at every instruction until it encounters the HALT instruction of an error occurs along the line.
+
+	b.	It can display the memory state before and after execution as well as the instruction set.
+
+2.	The Emulator accept .o files as input and the user have the option of outputting three different files along side the instruction set on the terminal if executed successfully.
+
+	a.	filename_emu_trace.log -	contains the trace of the executed instruction including the total count of instructions executed.
+	b.	filename_emu_startmem.log -	contains the initial memory status.
+	c.	filename_emu_endmem.log -	contains the final memory status.
+
+3.	It gives a successful status prompt if execution complete without issues.
+
+
+
+**********************************************************************************************
+TEST FILE
+
+1.	I have included all test programs in my submission alongside the corresponding output files (input test files have the same name as their corresponding ouput files but for the extension format).
+
+
+
