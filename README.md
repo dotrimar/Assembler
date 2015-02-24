@@ -48,10 +48,5 @@ EMULATOR
 
 
 
-**********************************************************************************************
-TEST FILE
-
-1.	I have included all test programs in my submission alongside the corresponding output files (input test files have the same name as their corresponding ouput files but for the extension format).
-
 
 
